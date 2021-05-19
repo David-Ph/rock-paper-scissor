@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #393E46;
+	color: #9abbed;
+	font-family: Arial;
+}
+
+img{
+	border: 10px solid #000;
+	border-radius: 50%;
+	width: 150px;
+	margin-bottom: 10px;
+}
+
+h2{
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+.container{
+	margin: 0 auto;	
+	text-align: center;
+}
+
+.middle-container{
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	width: 1000px;
+	color: #d4d6d9;
+}
+
+.page-header{
+	font-family: "Segoe Script";
+	font-size: 40px;
+	padding: 50px;
+}
+
+.reset-btn{
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+	color: #9abbed;
+	background-color: #161f2b;
+	border: none;
+	visibility: hidden;
+}
+
+.hands-container{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+}
+
+.hands{
+	font-family: 'Arial';
+	font-size: 20px;
+}
+
+.player, .opponent{
+	width: 50%;
+}
+
+.player .hands{
+	margin-bottom: 20px;
+}
+
+
+.page-footer{
+	padding: 40px;
+}
